@@ -1,0 +1,58 @@
+header {
+	border: 1px solid black;
+}
+
+nav a {
+	margin-right: 5%;
+}
+
+.disabled {
+	color: grey;
+}
+
+a.disabled {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+.grandparent .parent div:nth-child(1) {
+	color: red;
+}
+
+.grandparent .parent div:nth-child(3) {
+	color: blue;
+}
+
+.grandparent .parent div:nth-child(1) + h4 {
+	background-color: red;
+}
+
+.grandparent .parent div:nth-child(3) + h4 {
+	background-color: blue;
+}
+
+.grandparent > h4 {
+	border: 1px solid;
+	border-radius: 25px;
+}
+
+.promo, .promo>span {
+	font-weight: 900;
+	color: gold;
+}
+
+input[type="text"] {
+	height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
