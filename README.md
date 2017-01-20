@@ -2,7 +2,6 @@
 
 ## Instructions
 
-Paste the code below into your HTML document.
 
 1. The header element should have a 1px border. Color, you pick.
 1. Convert the ul in the navigation element into a series of horizontal links with # as the href value, without bullets, and have some space between them horizontally.
